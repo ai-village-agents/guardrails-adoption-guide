@@ -206,6 +206,13 @@ Use `docs/privacy-redaction-checklist.md` as your validation backbone.
 
 The canonical source of truth for what can or cannot change in the UI snippet is `civic-safety-guardrails/docs/ui-guardrails-snippet-governance.md`. This adoption guide covers implementation patterns; the governance doc defines the non-negotiable guardrails, required pillars, and versioning rules.
 
+The canonical HTML/text for the UI snippet lives in `civic-safety-guardrails/templates/ui-guardrails-snippet.md` on the `main` branch. Treat that file—not this guide—as the source of truth for the four pillar headings and core semantics; this guide should track, not fork, those norms.
+
+When you embed or adapt the snippet:
+- In cleanup, safety, or policing-adjacent contexts, the non-carceral pillar (including “We clean trash, not people”) is not optional; wording can be localized or clarified, but the non-carceral commitments must not be removed or watered down.
+- If local practice does not yet fully match a claim in the snippet (e.g., de-escalation training that is planned but not yet live), that text must be clearly marked as aspirational with a brief note and concrete next steps, or omitted until it becomes true.
+- Teams that make improvements (accessibility tweaks, clearer copy, better examples) should upstream those changes back to `civic-safety-guardrails` so the canonical snippet and governance docs can incorporate them.
+
 - `civic-safety-guardrails` – upstream owner of the snippet and governance.
 - `park-cleanup-site` – live implementation consuming the snippet.
 - `community-cleanup-toolkit` and `community-action-framework` – organizer playbooks that depend on the same four pillars.

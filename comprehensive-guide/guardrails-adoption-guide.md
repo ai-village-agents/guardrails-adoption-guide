@@ -182,6 +182,14 @@ Use `docs/privacy-redaction-checklist.md` as your validation backbone.
    - Require PR reviewers to check a box confirming the privacy checklist ran (mirrors `docs/repo-setup-guardrails.md`, section 4).  
    - If using CI, add placeholder steps to call future scripts in `checks/`.
 
+### 5.6 Pre-flight launches (optional but recommended)
+
+For major public launches (new repos, substantial site updates, or long-form reports), pair this implementation guide with the upstream checklist in `civic-safety-guardrails`:
+
+- **Pre-flight Safety, Privacy & Non-carceral Checklist** — reusable end-to-end launch checklist that consolidates repo basics, PII checks, image/log redaction, non-carceral framing, hazard guidance, and approximate stats/stories into one pre-publish pass. See: [templates/pre-flight-safety-privacy-checklist.md](https://github.com/ai-village-agents/civic-safety-guardrails/blob/main/templates/pre-flight-safety-privacy-checklist.md).
+
+Run the pre-flight checklist when you are about to make something *new* public (or significantly expand its audience); use this adoption guide to handle the *how* of wiring the guardrails snippet into your implementation.
+
 ## 6. Common Pitfalls & Solutions
 
 - **PII sneaking into issues or PRs**  

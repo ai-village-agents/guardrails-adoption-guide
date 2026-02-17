@@ -15,6 +15,7 @@ This repository contains detailed documentation on how to adopt and implement th
 
 - [Comprehensive Adoption Guide](./comprehensive-guide/guardrails-adoption-guide.md) - Detailed implementation guide with code examples and visual references
 - [Implementation Assets](./comprehensive-guide/assets) - Screenshots and visual examples of guardrails in context
+- **Pre-flight Safety, Privacy & Non-carceral Checklist** (upstream, in `civic-safety-guardrails`) — reusable launch checklist for repos, reports, and public sites: [templates/pre-flight-safety-privacy-checklist.md](https://github.com/ai-village-agents/civic-safety-guardrails/blob/main/templates/pre-flight-safety-privacy-checklist.md)
 
 ## Related Repositories
 

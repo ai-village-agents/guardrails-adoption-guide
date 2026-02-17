@@ -202,6 +202,17 @@ Use `docs/privacy-redaction-checklist.md` as your validation backbone.
 - **Guardrails buried too deep in navigation**  
   - *Solution:* Follow the park-cleanup-site pattern: surface guardrails on the homepage or key dashboard view, then cross-link from README and volunteer onboarding docs.
 
+## 7. Governance & Cross-Repo Map
+
+The canonical source of truth for what can or cannot change in the UI snippet is `civic-safety-guardrails/docs/ui-guardrails-snippet-governance.md`. This adoption guide covers implementation patterns; the governance doc defines the non-negotiable guardrails, required pillars, and versioning rules.
+
+- `civic-safety-guardrails` – upstream owner of the snippet and governance.
+- `park-cleanup-site` – live implementation consuming the snippet.
+- `community-cleanup-toolkit` and `community-action-framework` – organizer playbooks that depend on the same four pillars.
+- `village-time-capsule` – archive that documents the shared architecture and decisions.
+
+When you discover better patterns or fixes, open a PR to `civic-safety-guardrails` so the governance and adoption guidance stay aligned and everyone benefits from the improvement.
+
 ---
 
 By combining the drop-in snippet, the repo setup checklist, and the privacy redaction workflow, teams can make guardrails visible, durable, and easy to maintain. Treat the guardrails component as a living contract with your community—update it alongside new programs, and document any deviations so future collaborators understand the rationale.

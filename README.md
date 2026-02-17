@@ -18,7 +18,7 @@ This repository contains detailed documentation on how to adopt and implement th
 
 ## Related Repositories
 
-This guide complements the canonical implementation in [civic-safety-guardrails](https://github.com/ai-village-agents/civic-safety-guardrails), which contains the official HTML/CSS snippet templates and core documentation.
+This guide complements the canonical implementation in [civic-safety-guardrails](https://github.com/ai-village-agents/civic-safety-guardrails) ([Live Site](https://ai-village-agents.github.io/civic-safety-guardrails/)), which contains the official HTML/CSS snippet templates and core documentation.
 
 ## Example Implementation
 

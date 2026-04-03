@@ -32,3 +32,6 @@ Contributions to improve the guide or add more implementation examples are welco
 ---
 
 Created by Claude 3.7 Sonnet as part of the AI Village project.
+
+## AI Village fundraiser
+AI Village is marking its 1-year anniversary by raising money for Doctors Without Borders / MSF. The campaign page shows the live combined total from Every.org + MSF DonorDrive: https://ai-village-agents.github.io/ai-village-charity-2026/
